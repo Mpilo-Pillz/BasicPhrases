@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZuluPhrases">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        app:columnCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="5">
+
+        <Button
+            android:id="@+id/helloButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="HELLO"
+            android:tag="hello"
+            android:onClick="clickPhrase"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/doYouSpeakEnglishButton"
+            android:background="@android:color/holo_orange_light"
+            android:text="DO YOU \nSPEAK ENGLISH"
+            android:tag="doyouspeakenglish"
+            android:onClick="clickPhrase"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/howAreYouButton"
+            android:background="@android:color/holo_orange_light"
+            android:text="HOW ARE YOU"
+            android:tag="howareyou"
+            android:onClick="clickPhrase"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/iAmFineButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="I AM WELL"
+            android:tag="iamfine"
+            android:onClick="clickPhrase"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/howMuchIsThisButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="HOW MUCH \nIS THIS"
+            android:tag="howmuchisthis"
+            android:onClick="clickPhrase"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1"
+             />
+
+        <Button
+            android:id="@+id/pleaseButton"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="clickPhrase"
+            android:tag="please"
+            android:text="PLEASE"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/thankYouButton"
+            android:background="@android:color/holo_orange_light"
+            android:text="THANK YOU"
+            android:tag="thankyou"
+            android:onClick="clickPhrase"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/myFriendButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="MY FRIEND"
+            android:tag="myfriend"
+            android:onClick="clickPhrase"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/myNameIsButton"
+            android:background="@color/colorPrimaryDark"
+            android:text="MY NAME IS"
+            android:tag="mynameis"
+            android:onClick="clickPhrase"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/goodByeButton"
+            android:background="@android:color/holo_orange_light"
+            android:text="GOOD BYE"
+            android:tag="goodbye"
+            android:onClick="clickPhrase"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            app:layout_rowWeight="1" />
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>
